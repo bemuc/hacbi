@@ -17,7 +17,7 @@ p {
 	margin-bottom: 0px;
 	font-size: 15px;
 	font-weight: 400;
-	color: #7a7a7a;
+	/* color: #7a7a7a; */
 	line-height: 30px;
 }
 a {
@@ -35,17 +35,19 @@ h1,h2,h3,h4,h5,h6 {
 
 .main-button a {
 	display: inline-block;
-	background-color: #f48840;
-	color: #fff;
-	font-size: 13px;
-	font-weight: 500;
+	background-color: #fff;
+	color: #f48840;
+	font-size: 17px;
+	font-weight:700;
 	padding: 12px 20px;
 	text-transform: uppercase;
 	transition: all .3s;
+	border-radius: 5px;
 }
 
 .main-button a:hover {
 	background-color: #fb9857;
+	color: #fff;
 }
 
 .heading-page {
@@ -81,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #preloader {
   overflow: hidden;
-  background: #f48840;
+  background: #13516e;
   left: 0;
   right: 0;
   top: 0;
@@ -464,7 +466,7 @@ header .navbar {
 
 .blog-posts .down-content ul.post-info li a {
 	font-size: 14px;
-	color: #aaa;
+	/* color: #aaa; */
 	font-weight: 400;
 	transition: all .3s;
 }
@@ -708,7 +710,7 @@ ul.page-numbers li a:hover {
 }
 
 .sidebar .search input::placeholder {
-	color: #aaa;
+	color: rgb(0, 0, 0);
 }
 
 .sidebar .recent-posts ul li {
